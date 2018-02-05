@@ -1,4 +1,5 @@
 # CS231A Homework 1, Problem 2
+
 import numpy as np
 
 '''
@@ -28,6 +29,8 @@ Returns:
 '''
 def compute_camera_matrix(real_XY, front_image, back_image):
     # TODO: Fill in this code
+
+    m, c = np.linalg.lstsq(A, y)
     pass
 
 '''
